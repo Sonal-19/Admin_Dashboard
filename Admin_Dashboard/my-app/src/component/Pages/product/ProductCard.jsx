@@ -64,7 +64,7 @@ const LatestProductsSlider = () => {
       <Slider {...settings} className="slide">
         {mockLatestProducts.map((product) => (
           <div key={product._id} className="cardL rounded bg-white border shadow m-5">
-            <h2 className='m-2 text-bold font-monospace text-center' >Recent Products</h2>
+            <h2 className='m-2 text-bold font-monospace text-center' style={{ fontStyle: "italic" }} >Recent Products</h2>
             <div className='d-flex'>        
               <div className="image-side text-center ms-3">
                 <img src={product.image} alt={product.name} className="card-img-top BeerListItem-imgL" />
@@ -87,7 +87,7 @@ const LatestProductsSlider = () => {
                   </span>
                 </p>
                 <p className="card-text">
-                  <Link to='/allproducts'>Show More</Link>
+                  <Link to='/productlist'>Show More</Link>
                 </p>
               </div>
             </div>

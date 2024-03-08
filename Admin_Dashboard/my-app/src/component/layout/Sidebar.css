@@ -24,12 +24,15 @@
   
   .sub-menu {
     cursor: pointer;
+    text-align: center !important;
+    align-items: center !important;
     border-bottom: 1px solid rgb(244, 252, 255) !important;
   }
   
   .section-link, .sub-menu-link {
     text-decoration: none;
     display: flex;
+    text-align: center !important;
     align-items: center;
     color: black;
     font-size: 19px;

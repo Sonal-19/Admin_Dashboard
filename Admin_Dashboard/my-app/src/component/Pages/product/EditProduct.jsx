@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const sizeOptions = ["S", "M", "L"];
 
 export default function EditProduct() {
-  const { productId } = useParams();
   const [product, setProduct] = useState({
     name: "",
     price: "",
