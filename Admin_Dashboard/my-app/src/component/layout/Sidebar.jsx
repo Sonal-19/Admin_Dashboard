@@ -17,7 +17,7 @@ export default function Sidebar() {
     <>
       <div className='sidebar col-2 mt-5'>
         <div className="sidebar-section" onClick={() => handleToggle('dashboard')} >
-          <Link to="/Admin_Dashboard" className='section-link'>
+          <Link to="/" className='section-link'>
             <span>
             <FontAwesomeIcon icon={faTachometerAlt} className="me-1 sidebar-icon" />
               Dashboard</span>

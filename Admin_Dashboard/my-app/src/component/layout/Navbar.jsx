@@ -71,7 +71,7 @@ function Navbar() {
   const findMatchingRoute = (searchText) => {
     const lowerCaseSearch = searchText.toLowerCase();
     const routes = [
-      "/Admin_Dashboard",
+      "/",
       "/account",
       "/adminadd",
       "/adminlist",
@@ -100,7 +100,7 @@ function Navbar() {
     const matchedSuggestions = [];
 
     const routes = [
-      { route: "/Admin_Dashboard", label: "Dashboard" },
+      { route: "/", label: "Dashboard" },
       { route: "/account", label: "Account" },
       { route: "/addadmin", label: "Add Admin" },
       { route: "/adminlist", label: "Admin List" },
@@ -140,7 +140,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-white border shadow fixed-top mb-0 mt-0">
         <div className="container-fluid d-flex align-items-center mb-0 pb-0 mt-0 pt-0">
           <div className="m-2 pe-2">
-            <Link to="/Admin_Dashboard">
+            <Link to="/">
               <img src={logo1} alt="logo1" className="logo me-5" />
             </Link>
           </div>

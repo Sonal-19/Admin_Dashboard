@@ -15,7 +15,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/forget" element={<Forget />} />
           <Route
-            path="/Admin_Dashboard"
+            path="/*"
             element={
               <>
                 <Navbar />
