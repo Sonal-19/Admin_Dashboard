@@ -37,7 +37,7 @@ const MainContent = () => {
           <Route path='/signup' element={<Signup/>} />
           <Route path='/login' element={<Login />} />
           <Route path='/forget' element={<Forget />} />
-          <Route path='/' element={<Dashboard />} />
+          <Route path='/Admin_Dashboard' element={<Dashboard />} />
           <Route path='/account' element={<Account />} />
           <Route path='/addproduct' element={<AddProduct/>} />
           <Route path='/productlist' element={<ProductList/>} />
