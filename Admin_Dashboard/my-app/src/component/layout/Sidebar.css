@@ -24,6 +24,8 @@
   
   .sub-menu {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
     text-align: center !important;
     align-items: center !important;
     border-bottom: 1px solid rgb(244, 252, 255) !important;
